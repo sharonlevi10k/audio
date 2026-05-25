@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - link "דלג לתוכן" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: דוגווק
+        - link "התחברות" [ref=e8] [cursor=pointer]:
+          - /url: /login
+          - button "התחברות" [ref=e9]
+    - main [ref=e10]:
+      - region "טיול לכלב, בלי דאגות" [ref=e11]:
+        - paragraph [ref=e12]: 01 — DOGWALK
+        - heading "טיול לכלב, בלי דאגות" [level=1] [ref=e13]:
+          - text: טיול לכלב,
+          - text: בלי דאגות
+        - paragraph [ref=e14]: פלטפורמה ישראלית שמחברת בעלי כלבים עם דוג-ווקרים מאומתים בשכונה. הזמן מראש או שדר בקשה עכשיו — תוך דקות.
+        - generic [ref=e15]:
+          - link "אני בעל כלב" [ref=e16] [cursor=pointer]:
+            - /url: /register/customer
+            - button "אני בעל כלב" [ref=e17]
+          - link "אני דוג-ווקר" [ref=e18] [cursor=pointer]:
+            - /url: /register/walker
+            - button "אני דוג-ווקר" [ref=e19]
+      - region "איך זה עובד" [ref=e20]:
+        - paragraph [ref=e23]: איך זה עובד
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - paragraph [ref=e27]: "01"
+            - heading "הירשם" [level=3] [ref=e28]
+            - paragraph [ref=e29]: הרשמה בדקה אחת. לקוחות מתחילים להזמין מיד; ווקרים עוברים אישור בתוך 48 שעות.
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: "02"
+            - heading "הזמן" [level=3] [ref=e32]
+            - paragraph [ref=e33]: תכנן טיול מראש או שדר בקשה עכשיו לווקרים זמינים בשכונה. הראשון שמאשר — איתך.
+          - generic [ref=e34]:
+            - paragraph [ref=e35]: "03"
+            - heading "עקוב" [level=3] [ref=e36]
+            - paragraph [ref=e37]: ראה את הכלב שלך על המפה בזמן אמת. קבל הודעה כשהטיול מסתיים.
